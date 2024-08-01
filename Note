@@ -31,3 +31,5 @@
   11th to push it to github
        $ git commit -m " add hello_world to github"
        $ git status 
+  12th see the log 
+       $ git log
