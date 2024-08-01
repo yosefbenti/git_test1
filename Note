@@ -28,8 +28,10 @@
   10th to push it to staging area ( ready to push to github area ,wait area) 
        $ git add hello_world.txt
             # then the red color change to green and ready to be pushed
-  11th to push it to github
+  11th to commit it
        $ git commit -m " add hello_world to github"
-       $ git status 
+       $ git status
+  12th to push it to github / git push or git push origin main "
+       $ git push 
   12th see the log 
        $ git log
