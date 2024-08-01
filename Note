@@ -1,0 +1,33 @@
+# 1st create a github account on github.com 
+  2nd download git bash on your computer and install it 
+  3rd generate a ssh key on your local machine 
+  4th copy the key and pest on github account 
+      you can control projectes on github using git on your local machine 
+  5th create a new project on github
+       * New repository 
+       * add a project name 
+       * thick read me icon 
+       * press create repository button
+
+  6th create a folder on your local machine
+
+       $ mkdir repos 
+       $ cd repos
+       $ git clone git@github.com:yosefbenti/git_test1.git
+
+       it will copy it to your local machine
+  7th open git on your local machine and git clone it then
+       the project also copy on your local machine . also it found on github. 
+  8th create a new file inside the git_test1 folder 
+       $ touch hello_world.txt
+  9th then check the status of the new file by
+       $ git status 
+            # if you see the hello_world.txt in red color it mean 
+            # the file hello_world is only found on your local machine
+
+  10th to push it to staging area ( ready to push to github area ,wait area) 
+       $ git add hello_world.txt
+            # then the red color change to green and ready to be pushed
+  11th to push it to github
+       $ git commit -m " add hello_world to github"
+       $ git status 
