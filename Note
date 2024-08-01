@@ -1,3 +1,29 @@
+           ## configure git and github 
+
+  1st goto github.com
+  2nd install git bash on your machine 
+  3rd git config --global user.name yosefbenti
+      git config --global user.email yosefbenti61@gmail.com
+  4th git colorful
+      git config --global color.ui auto
+  5th to verify git is configured properly
+       git config --get user.name
+       git config --get user.email
+  6th create an ssh key 
+      its used to identify your machine github use ssh key
+  7th check if Ed25519 algorithm ssh key installed
+       ls ~/.ssh/id_ed25519.pub
+       if not got an output 
+  8th generate it 
+       ssh-keygen -t ed25519
+  9th Link your SSH key with GitHub
+  10th go to github > profile picture > settings > SSH and GPG keys >
+                    > New SSH key 
+        in the name filed : name your ssh key
+        in ssh key : copy and pest from your machine this one 
+                     cat ~/.ssh/id_ed25519.pub
+       
+
 # 1st create a github account on github.com 
   2nd download git bash on your computer and install it 
   3rd generate a ssh key on your local machine 
